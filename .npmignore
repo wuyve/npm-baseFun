@@ -1,0 +1,7 @@
+.*
+*.yml
+build/
+node_modules/
+src/
+test/
+gulpfile.js
