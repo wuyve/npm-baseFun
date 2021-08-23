@@ -16,4 +16,24 @@ NPM包 注意事项：NPM包名要全网唯一
 
 
 ## 使用流程
-1. 在项目中安装此NPM包 ``
+1. 在项目中安装此NPM包 `npm install test-wuyve-npm --save`
+
+```js
+import {randomArr} from 'test-wuyve-npm'
+
+console.log(randomArr([1, 2, 3]))
+```
+
+2. 升级NPM包
+    卸载已有NPM `npm uninstall test-wuyve-npm`
+    更新NPM`npm install test-wuyve-npm --save`
+
+
+## 方法
+
+### randomArr
+
+- 描述：返回随机数组
+- 入参：数组
+- 出参：随机后的数组
+
